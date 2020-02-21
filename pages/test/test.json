@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "测试",
   "usingComponents": {
     "c-test": "/components/c-test/c-test"
   }

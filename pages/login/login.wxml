@@ -1,0 +1,32 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <image src="/assets/images/test.jpg" class="headerPic"></image>
+  <view class="loginPanel">
+    <!-- 登录表单 -->
+    <form bindsubmit="_handlerSumbit">
+      <view class="formItem">
+      <text class="iconfont  icon-account"></text>
+      <input class="account" name="accountV" placeholder="请输入账号" bindinput="_handerAccountInput"></input>
+      <icon type="{{isLegal? 'success':'warn'}}"></icon>
+    </view>
+    <view  class="formItem">
+      <text class="iconfont  icon-password"></text>
+      <input class="password"  name="passwordV" type="password" placeholder="请输入密码" bindinput="_handerPasswordInput"></input>
+    </view>
+    <view class="spaceBetween formItem">
+    <checkbox-group name="remberPwdV" bindchange="_handlerRem">
+      <checkbox name="remberPwdV" value="1" checked="{{rememberPwd}}">记住密码</checkbox>
+    </checkbox-group>
+     <checkbox-group name="autoLloginV" bindchange="_handlerAuto">
+     <checkbox name="autoLloginV" value="1" checked="{{autoLogin}}">自动登录</checkbox>
+     </checkbox-group>
+    </view>
+    <view class="formItem">
+      <button type="primary" class="loginBtn" form-type="submit" disabled="{{!loginCick}}">登录</button>
+    </view>
+    <view class="formItem">
+      <button class="registBtn">注册</button>
+    </view>
+    </form>
+  </view>
+</view>

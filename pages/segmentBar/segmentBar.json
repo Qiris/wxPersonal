@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "segmentBar": "/components/segmentBar/segmentBar",
+    "segmentPanel": "/components/segmentPanel/segmentPanel"
+  }
+}

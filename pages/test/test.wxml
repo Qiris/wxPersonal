@@ -1,5 +1,12 @@
 <!--pages/test/test.wxml-->
-<text bindtap="bandFunc">pages/test/test.wxml</text>
-<c-test/>
-<c-test/>
-<c-test/>
+<text bindtap="bandFunc">列表测试</text>
+<block wx:if="{{score === 100}}">
+  <view >满分</view>
+</block>
+<!-- 实现长按图片抖动删除  -->
+<!-- 复用列表组件 -->
+<view class="listComponents">
+<block wx:for="{{testItem}}" wx:key="id">
+    <c-test testItem="{{item}}"/>
+</block>
+</view>

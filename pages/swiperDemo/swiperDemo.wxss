@@ -1,0 +1,7 @@
+/* pages/swiperDemo/swiperDemo.wxss */
+.swiperMain {
+  height: 400rpx;
+}
+.imageSwiper {
+  width: 100%;
+}

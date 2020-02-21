@@ -1,2 +1,10 @@
-<!--components/c-test/c-test.wxml-->
-<view>这是一个测试组件</view>
+<!--pages/test/test.wxml-->
+<!-- 列表组件 -->
+<view class="listItem {{isDelete? 'deleteItem':''}}" bindlongpress="_deleteItem">
+  <image src="{{testItem.imgHeader}}" mode="aspectFill"/>
+  <view>{{testItem.nameHeader}}</view>
+  <view class="delBtn" hidden="{{!isDelete}}" bindtap="_handlerDelete">X</view>
+</view>
+
+
+ 

@@ -1,0 +1,8 @@
+<!--pages/segmentBar/segmentBar.wxml-->
+<!-- <segmentBar segmentItems="{{items}}" bind:selectChange="_handlerselectChange"/> -->
+<segmentPanel segmentItems="{{items}}" segment-class="xs">
+  <view slot="0">1</view>
+  <view slot="1">2</view>
+  <view slot="2">3</view>
+  <view slot="3">4</view>
+</segmentPanel>

@@ -1,0 +1,9 @@
+<!--components/segmentBar/segmentBar.wxml-->
+<view class="segmentBar">
+  <block wx:for="{{segmentItems}}" wx:key="index">
+     <view id="{{index}}" class="segmentItem {{currentIndex == index ? 'active':''}}" bindtap="_handlerTap">
+      <text class="segmentTitle">{{item.title}}</text>
+      <text class="segmentsecondTitle"> {{item.secondTitle}}</text>
+    </view>
+  </block>
+</view>

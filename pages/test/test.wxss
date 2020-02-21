@@ -1,1 +1,8 @@
 /* pages/test/test.wxss */
+.listComponents {
+  display: flex;
+  /* 水平均等排列 */
+  justify-content: space-evenly;
+  /* 超过时自动换行 */
+  flex-wrap: wrap;
+}

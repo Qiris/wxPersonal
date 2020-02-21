@@ -19,3 +19,18 @@
 .usermotto {
   margin-top: 200px;
 }
+.one {
+  width: 700rpx;
+  height: 300rpx;
+  background-color: lavender;
+}
+.two {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: lavender;
+}

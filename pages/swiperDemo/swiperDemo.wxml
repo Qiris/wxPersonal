@@ -1,0 +1,12 @@
+<!--pages/swiperDemo/swiperDemo.wxml-->
+<swiper  class="swiperMain" indicator-dots="true" autoplay="true" interval="2000" circular="true">
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582261261312&di=51bb53e5893d5f6102e2025de0be3d3e&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201811%2F10%2F20181110095216_2REFH.jpeg" mode="widthFix" class="imageSwiper"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582261261304&di=12256d685040863efd828fb17010c12a&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2Fc65f0fb7343516425d1b0750094c111175a4cfb4.jpg" mode="widthFix" class="imageSwiper"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1009799445,2466117880&fm=26&gp=0.jpg" mode="widthFix" class="imageSwiper"/>
+  </swiper-item>
+</swiper>

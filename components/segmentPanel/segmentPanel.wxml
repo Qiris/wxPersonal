@@ -1,0 +1,12 @@
+<!--components/segmentPanel/segmentPanel.wxml-->
+
+<view class="segmentPanel segment-class">
+  <segmentBar id="x-sp-sb" segmentItems="{{segmentItems}}" bind:selectChange="_handlerselectChange"/>
+  <swiper circular class="segmentContainer" current="{{currentIdx}}" bindchange="_handlerChange">
+  <block wx:for="{{segmentItems}}" wx:key="index">
+    <swiper-item>
+      <slot name="{{index}}"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>

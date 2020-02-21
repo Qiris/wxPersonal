@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "d-测试",
+  "usingComponents": {
+    "d-testAll": "/components/d-test/d-test"
+  }
+}

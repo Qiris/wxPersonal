@@ -1,0 +1,11 @@
+<!--pages/d-test/d-test.wxml-->
+<text>宽列表模式</text>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>
+<d-testAll/>

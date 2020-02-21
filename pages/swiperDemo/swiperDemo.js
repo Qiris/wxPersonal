@@ -1,40 +1,18 @@
-// pages/test/test.js
+// pages/swiperDemo/swiperDemo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    score:50,
-    testItem:[
-      {
-        id:"1",
-        imgHeader:'/assets/images/test.jpg',
-        nameHeader:'1个标题'
-      },
-      {
-        id: "2",
-        imgHeader: '/assets/images/test.jpg',
-        nameHeader: '2个标题'
-      },
-      {
-        id: "3",
-        imgHeader: '/assets/images/test.jpg',
-        nameHeader: '3个标题'
-      }
-    ]
+
   },
-  /***
-   * 触摸事件函数
-   */
-  bandFunc:function() {
-    console.log('触摸函数调用')
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('测试页面加载完毕')
+
   },
 
   /**

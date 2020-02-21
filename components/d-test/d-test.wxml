@@ -1,0 +1,11 @@
+<!--components/d-test/d-test.wxml-->
+<view class="courseItem">
+  <view class="fm">
+    <image src="/assets/images/test.jpg" mode="aspectFill"/>
+  </view>
+  <view class="desc">
+    <text class="textTitle">这是小程序列表的标题</text>
+    <text class="courseTitle">我是标题哦</text>
+    <text>我是介绍内容哦</text>
+  </view>
+</view>

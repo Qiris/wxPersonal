@@ -9,12 +9,21 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     time:new Date().toString(),
-    a:10
+    a:10,
+    attrArr:["a","b","c"]
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  // 点击按钮操作函数
+  _handleTapFunc:function() {
+    this.data.attrArr.unshift("d")
+    // 动态修改数据源
+    this.setData({
+      attrArr: this.data.attrArr
     })
   },
   onLoad: function () {

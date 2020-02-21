@@ -1,0 +1,4 @@
+/* pages/segmentBar/segmentBar.wxss */
+.xs {
+  height: 100vh;
+}
